@@ -1,10 +1,6 @@
 public class Main{
-  public static void main(String[] args) {
-    String name = " Meshach";
-    System.out.println("Hello" + name);
-    int age = 200;
-    System.out.println(name + " is " + age + " years old.");
-    System.out.println(name.length());
-    System.out.println(name.charAt(6));
-  }
+public static void main(String[]args){
+    CMP202 cmp202 = new CMP202();
+    cmp202.printUserDetails();
+}
 }
